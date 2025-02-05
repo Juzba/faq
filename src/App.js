@@ -5,7 +5,7 @@ const App = () => {
     return (
         <div className='appContainer'>
             {data.map((item) => {
-                return (<Card oneData={item} key={item.id}/>);
+                return (<Card {...item} key={item.id}/>);
             })}
         </div>
     );

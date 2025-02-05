@@ -1,10 +1,9 @@
 import { useState } from 'react';
 import './Card.css';
 
-const Card = (props) => {
+const Card = ({ question, answer }) => {
     const [open, setOpen] = useState(false);
 
-    const { question, answer } = props.oneData;
     return (
         <div className="cardContainer">
             <div className="firstBox">

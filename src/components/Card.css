@@ -1,9 +1,13 @@
 .cardContainer {
-    width: 70%;
+    width: 60%;
     margin: 30px auto;
     padding: 5px 50px;
     border-radius: 5px;
     box-shadow: 0 0 15px rgba(255, 0, 0, 0.667);
+}
+.cardContainer h2{
+    font-weight: 400;
+    padding-right: 10px;
 }
 
 .cardContainer .firstBox {
@@ -30,8 +34,10 @@
 .cardContainer button{
     text-align: center;
     height: 30px;
-    width: 100px;
+    min-width: 100px;
     background-color: #E50A15;
     color: aliceblue;
     border-radius: 5px;
+    cursor: pointer;
+    border: none;
 }
